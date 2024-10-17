@@ -1,9 +1,10 @@
 import './App.css';
+import TalkingHead from "./Components/TalkingHead"
 
 function App() {
   return (
     <div className="App">
-      <h1 className="font-bold">Hello World!</h1>
+      <TalkingHead />
     </div>
   );
 }
